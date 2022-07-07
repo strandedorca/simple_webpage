@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Setting up Git</title>
+</head>
+<body>
+    <h1>Steps to set up Git for Linux</h1>
+    <h2>Install Git</h2>
+    <ol>
+        <li>Update the system: <code>sudo pacman -Syuz</code></li>
+        <li>Install git: <code>sudo pacman -S git</code></li>
+        <li>Verify version: <code>git --version</code></li>
+    </ol>
+    <h2>Configure Git</h2>
+    <ol>
+        <li>Set up user name: <code>git config -global user.name "Your Name"</code></li>
+        <li>Set up user's email: <code>git config --global user.email "yourmail@example.com"</code></li>
+    </ol>
+    <h3>Set up GitHub</h3>
+    <ol>
+        <li>Create a GitHub account or sign in if you already have one.</li>
+        <li>Create an SSH key for your local machine: <code>ssh-keygen -t ed25519 -C yourmail@example.com</email></code></li>
+        <li>Link your SSH Key with GitHub.</li>
+        <li>Test the SSH key: <code>ssh -T git@github.com</code></li>
+    </ol>
+
+</body>
+</html>
