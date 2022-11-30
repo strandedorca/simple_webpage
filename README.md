@@ -1,6 +1,9 @@
 Hi,  
 This is my first project for The Odin Project. The required project is "Odin Recipes" but I already did it in the past so I want to create something new this time.  
 
+## Live Preview
+https://strandedorca.github.io/simple_webpage/
+
 ## What I've learnt  
 
 ![What I've learned](learned.jpeg)
